@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+/*-------------------------------content*/
+
+.bg-color-name-title{
+    background-color:#cfd68b;
+    
+}
+.bg-color-home{
+    background-color:#949217;
+}
+.bg-color-resume{
+    background-color:#204c72;
+}
+.bg-color-contact{
+    background-color:#ecd95f;   
+}
+.bg-color-cv{
+    background-color:#282c01;
+}
+
+.bg-color-three-reasons{
+    background-color: #454c05;
+}
+/*-------------------------special paddings/margin/text*/
+h1,
+h2,
+h3,
+h4,
+h5{
+    margin:0;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.general-sub{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color:#fafafa;
+    display:block;
+    padding-top: 20px;
+}
+
+.section-column{
+    padding: 0 30px 30px;
+    float: none;
+    display: table-cell;
+}
+
+.row table{
+    display:table;
+}
+
+.section-heding{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+
+/*-------------------------heading*/
+
+header{
+    margin:0;
+    
+}
+
+.heading{
+    margin-left: 50px;
+    height:150px;
+}
+
+
+.logo{
+    background-image:url('../images/me.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:360px;
+    transition: all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -webkit-transition:all .5s ease-in-out;
+
+}
+
+.name{
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 90px;
+    color:#ffffff;
+}
+
+.title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom:90px;
+    color:#000000;
+}
+
+#nav{
+    margin:0;
+    
+}
+
+#nav li{
+    padding:0;
+}
+
+
+.items{
+    text-align: center;
+    height:120px;
+    padding: 0;
+}
+
+.items a{
+    text-decoration: none;
+    width: 100%;
+    color:#ffffff;
+    height:120px;
+}
+
+.items a i{
+    padding-top:22px;
+    display:block;
+    font-size: 26px;
+    color:#fafafa;
+}
+
+.items span {
+    width: 100%;
+    padding-top:5px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display:block;
+    font-size: 14px;
+    font-weight: 300;
+    
+}
+
+/*-------------------------hover.css*/
+.items a: hover before {
+    background-color:rgba(255,0,0,0.3);
+    height: 120px;
+}
+/*-------------------------section*/
+
+/*-------------------------footer*/
+footer{
+    background-color: #282c01;
+    color:#fafafa;
+    min-height: 120px;
+    margin:0;
+}
+
+footer .cv-pdf i {
+    color: #fafafa;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+footer .cv-pdf i:hover {
+    color: #204c72;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+ .social-links{
+    padding-bottom: 15px;
+}
+
+.social-links li a i{
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50px;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color:#fafafa;
+    background:#808080;
+    transition: all 0.35s, ease-in-out;
+    -moz-transition: all 0.35s, ease-in-out;
+    -webkit-transition: all 0.35s, ease-in-out;
+    -o-transition: all 0.35s, ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color:#204c72;
+}
+
+#footer-details{
+    margin: 15px;
+}
+
