@@ -163,7 +163,7 @@ header{
     height: 120px;
 }
 
-/*-------------------------footer*/
+/*----------------------------------------------footer*/
 footer{
     background-color: #282c01;
     color:#fafafa;
@@ -381,4 +381,9 @@ button {
     color: #100000;
     background-color: #b3b3af;
     text-decoration: none;
+}
+
+.center-block{
+    margin-bottom: 20px;
+
 }
